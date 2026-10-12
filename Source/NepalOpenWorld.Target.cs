@@ -1,15 +1,11 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
-using System.Collections.Generic;
-
 public class NepalOpenWorldTarget : TargetRules
 {
-	public NepalOpenWorldTarget(TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V7;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;
-		ExtraModuleNames.Add("NepalOpenWorld");
-	}
+    public NepalOpenWorldTarget(TargetInfo Info) : base(Info)
+    {
+        Type = TargetType.Game;
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+        ExtraModuleNames.Add("NepalOpenWorld");
+    }
 }
