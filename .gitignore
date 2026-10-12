@@ -1,0 +1,28 @@
+# Unreal Engine generated files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE-generated files
+.vs/
+.idea/
+.vscode/
+*.sln
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdatad/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
